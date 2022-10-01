@@ -69,15 +69,11 @@ fun ThursdayTriviaWeek1(name: String) {
             Spacer(modifier = Modifier.padding(40.dp))
         }
         Row(modifier = Modifier
-//            .fillMaxHeight()
             .fillMaxWidth(),
-//            .wrapContentWidth(Alignment.CenterHorizontally),
         horizontalArrangement = Arrangement.Center
         ) {
             Column (
                 modifier = Modifier
-//                .fillMaxHeight()
-//                .fillMaxWidth()
                     .padding(end = 80.dp),
                 horizontalAlignment = Alignment.CenterHorizontally
                 ){
@@ -98,10 +94,7 @@ fun ThursdayTriviaWeek1(name: String) {
             .fillMaxWidth(),
             horizontalArrangement = Arrangement.Center
             ) {
-            Button(onClick = { /*TODO*/ },
-                colors = ButtonDefaults.buttonColors(
-//                    backgroundColor = Color.Magenta,
-                    contentColor = Color.White), modifier = Modifier
+            Button(onClick = { /*TODO*/ }, modifier = Modifier
                     .padding(start = 10.dp, end = 10.dp)
                     .height(100.dp)
                     .width(100.dp)
@@ -114,7 +107,6 @@ fun ThursdayTriviaWeek1(name: String) {
             Button(onClick = { /*TODO*/ },
                 colors =
                 ButtonDefaults.buttonColors(
-//                    backgroundColor = Color.Magenta,
                     contentColor = Color.White),
                 modifier = Modifier
                     .padding(start = 10.dp, end = 10.dp)
@@ -129,7 +121,6 @@ fun ThursdayTriviaWeek1(name: String) {
             }
             Button(onClick = { /*TODO*/ },colors =
             ButtonDefaults.buttonColors(
-//                    backgroundColor = Color.Magenta,
                 contentColor = Color.White), modifier = Modifier
                 .padding(start = 10.dp, end = 10.dp)
                 .height(100.dp)
@@ -150,14 +141,9 @@ fun ThursdayTriviaWeek1(name: String) {
                 text = "#JetpackCompose",
                 fontFamily = FontFamily.SansSerif,
                 fontSize = 20.sp,
-//                modifier = Modifier
-//                    .padding(10.dp),
-//                textAlign = TextAlign.Center
             )
         }
-//        Button(onClick = { /*TODO*/ }) {
-//            Text(text = "Click me")
-//        }
+
     }
 }
 
